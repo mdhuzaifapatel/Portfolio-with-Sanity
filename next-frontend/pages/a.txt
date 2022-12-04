@@ -1,0 +1,17 @@
+ <div className="home">
+       <h1>{blogs[0].title}</h1>
+       <span>Hello Im Home</span>
+       <div>
+         <PortableText
+           content={blogs[0].content}
+           projectId="ou96eqqz"
+           dataset="production"
+           serializers={{
+             h1: (props) => <h1 style={{ color: "red" }} {...props} />,
+             li: ({ children }) => (
+               <li className="special-list-item">{children}</li>
+             ),
+        }}
+         />
+       </div>
+     </div>  
