@@ -23,8 +23,8 @@ export default function Home({ blogs }) {
           />
 
           <link
-            rel="shortcut icon"
-            href="/assets/img/favicon.png"
+            rel="icon"
+            href="/assets/img/aa.ico"
             type="image/x-icon"
           />
 
@@ -37,7 +37,7 @@ export default function Home({ blogs }) {
 
           <link rel="stylesheet" href="/assets/css/styles.css" />
           
-          <title>Md Huzaifa {"{"}••{"}"} </title>
+          <title>{"Md Huzaifa{••}"}</title>
         </Head>
 
         <header className="header" id="header">
