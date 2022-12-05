@@ -121,21 +121,21 @@ export default function Home({ blogs }) {
               </div>
               <div className="home__social">
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/muhammad-huzaifa-patel"
                   target="_blank"
                   className="home__social-link"
                 >
                   <i className="bx bxl-linkedin-square"></i>
                 </a>
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/mdhuzaifapatel"
                   target="_blank"
                   className="home__social-link"
                 >
                   <i className="bx bxl-github"></i>
                 </a>
                 <a
-                  href="https://dribbble.com/"
+                  href="https://api.whatsapp.com/send?phone=916360262475&amp;text=Hello,%20I%20need%20a%20website!"
                   target="_blank"
                   className="home__social-link"
                 >
