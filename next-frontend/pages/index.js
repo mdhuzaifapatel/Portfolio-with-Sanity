@@ -121,7 +121,7 @@ export default function Home({ blogs }) {
               </div>
               <div className="home__social">
                 <a
-                  href="https://www.linkedin.com/muhammad-huzaifa-patel"
+                  href="https://www.linkedin.com/in/muhammad-huzaifa-patel/"
                   target="_blank"
                   className="home__social-link"
                 >
