@@ -567,7 +567,7 @@ export default function Home({ blogs }) {
 
                 <h3 className="work__title">Student Management System</h3>
 
-                <a href="#" className="work__button">
+                <a href="https://github.com/mdhuzaifapatel/Student-Management-System" className="work__button">
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
