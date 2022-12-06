@@ -181,7 +181,7 @@ export default function Home({ blogs }) {
                 <p className="about__description">
                 I am an aspiring developer, currently pursuing my B.E in Electronics & Communication (2023). 
                 <br /> <br /> I love programming and developing websites. Interested in Full Stack Software Development
-                <br /> and Web Development. <br /> <br /> Especially active on HackerRank!
+                <br /> and Web Development. <br /> <br /> Especially active on <a className="hacker" href="https://www.hackerrank.com/mdhuzaifapatel" target="_blank" >HackerRank!</a> 
                 </p>
 
                 <a href="#contact" className="button">
@@ -332,8 +332,8 @@ export default function Home({ blogs }) {
             <div className="services__container container grid">
               <div className="services__card">
                 <h3 className="services__title">
-                  Product <br />
-                  Designer
+                  Frontend <br />
+                  Development
                 </h3>
                 <span className="services__button">
                   See more{" "}
@@ -343,47 +343,46 @@ export default function Home({ blogs }) {
                 <div className="services__modal">
                   <div className="services__modal-content">
                     <i className="bx bx-x services__modal-close"></i>
-                    <h3 className="services__modal-title">Product Designer</h3>
+                    <h3 className="services__modal-title">Frontend Development</h3>
                     <p className="services__modal-description">
-                      Service with more than 3 years of experience. Providing
-                      quality work to clients and companies.
+                      What I can provide at the frontend?
                     </p>
 
                     <ul className="services__modal-list">
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          I develop the user interface.
+                          Responsive Website Development.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          Web page development.
+                        I develop the interactive user interface.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          I create ux element interactions.
+                        Mobile-first design.
                         </p>
                       </li>
 
-                      <li className="services__modal-item">
+                      {/* <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
                           I position your company brand.
                         </p>
-                      </li>
+                      </li> */}
 
-                      <li className="services__modal-item">
+                      {/* <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
                           Design and mockups of products for companies.
                         </p>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -391,8 +390,8 @@ export default function Home({ blogs }) {
 
               <div className="services__card">
                 <h3 className="services__title">
-                  Ui/Ux <br />
-                  Designer
+                  Backend <br />
+                  Development
                 </h3>
                 <span className="services__button">
                   See more{" "}
@@ -402,47 +401,46 @@ export default function Home({ blogs }) {
                 <div className="services__modal">
                   <div className="services__modal-content">
                     <i className="bx bx-x services__modal-close"></i>
-                    <h3 className="services__modal-title">Ui/Ux Designer</h3>
+                    <h3 className="services__modal-title">Backend Development</h3>
                     <p className="services__modal-description">
-                      Service with more than 3 years of experience. Providing
-                      quality work to clients and companies.
+                    What I can provide at the backend?
                     </p>
 
                     <ul className="services__modal-list">
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          I develop the user interface.
+                          Backend development using NodeJS, ExpressJS, MySQL, etc.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          Web page development.
+                         Python & Flask Framework.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          I create ux element interactions.
+                          Develop CMS (Content Management System) using Sanity, Strapi, etc.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          I position your company brand.
+                          Payment gateway integration.
                         </p>
                       </li>
 
-                      <li className="services__modal-item">
+                      {/* <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
                           Design and mockups of products for companies.
                         </p>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -463,45 +461,50 @@ export default function Home({ blogs }) {
                     <i className="bx bx-x services__modal-close"></i>
                     <h3 className="services__modal-title">Visual Designer</h3>
                     <p className="services__modal-description">
-                      Service with more than 3 years of experience. Providing
-                      quality work to clients and companies.
+                      What I can do with my creative designing skills?
                     </p>
 
                     <ul className="services__modal-list">
+                    <li className="services__modal-item">
+                        <i className="bx bx-check services__modal-icon"></i>
+                        <p className="services__modal-info">
+                          Photoshop, Premeire Pro, After Effects
+                        </p>
+                      </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          I develop the user interface.
+                          Create intro videos/ logo intro.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          Web page development.
+                          Video editing.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          I create ux element interactions.
+                          Product/Event Promo videos.
                         </p>
                       </li>
 
-                      <li className="services__modal-item">
+                      {/* <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
                           I position your company brand.
                         </p>
-                      </li>
+                      </li> */}
 
-                      <li className="services__modal-item">
+                      {/* <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
                           Design and mockups of products for companies.
                         </p>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -511,20 +514,20 @@ export default function Home({ blogs }) {
 
           <section className="work section" id="work">
             <span className="section__subtitle">My Portfolio</span>
-            <h2 className="section__title">Recent Works</h2>
+            <h2 className="section__title">Projects</h2>
 
             <div className="work__filters">
               <span className="work__item active-work" data-filter="all">
                 All
               </span>
               <span className="work__item" data-filter=".web">
-                Web
+                Websites
               </span>
-              <span className="work__item" data-filter=".movie">
-                Movie
+              <span className="work__item" data-filter=".soft">
+                Software
               </span>
-              <span className="work__item" data-filter=".design">
-                Design
+              <span className="work__item" data-filter=".video">
+                Videos
               </span>
             </div>
 
@@ -532,47 +535,47 @@ export default function Home({ blogs }) {
               <div className="work__card mix web">
                 <img src="/assets/img/work1.jpg" alt="" className="work__img" />
 
-                <h3 className="work__title">Web design</h3>
+                <h3 className="work__title">Coding Club website</h3>
 
-                <a href="#" className="work__button">
+                <a href="https://codefellas.tech" target="_blank" className="work__button">
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
 
-              <div className="work__card mix movie">
+              <div className="work__card mix web">
                 <img src="/assets/img/work2.jpg" alt="" className="work__img" />
 
-                <h3 className="work__title">App movil</h3>
+                <h3 className="work__title">CSI Club website</h3>
 
                 <a href="#" className="work__button">
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
 
-              <div className="work__card mix design">
+              <div className="work__card mix soft">
                 <img src="/assets/img/work3.jpg" alt="" className="work__img" />
 
-                <h3 className="work__title">Brand design</h3>
+                <h3 className="work__title">Virtual Mouse</h3>
 
-                <a href="#" className="work__button">
+                <a href="https://drive.google.com/file/d/1ZTCaq1JF1Wmf90i8qvL8tw0_dadI3ebp/view" className="work__button" target="_blank">
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
 
-              <div className="work__card mix design">
+              <div className="work__card mix soft">
                 <img src="/assets/img/work4.jpg" alt="" className="work__img" />
 
-                <h3 className="work__title">Web design</h3>
+                <h3 className="work__title">Student Management System</h3>
 
                 <a href="#" className="work__button">
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
 
-              <div className="work__card mix movie">
+              <div className="work__card mix soft">
                 <img src="/assets/img/work5.jpg" alt="" className="work__img" />
 
-                <h3 className="work__title">App movil</h3>
+                <h3 className="work__title">Library App</h3>
 
                 <a href="#" className="work__button">
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>

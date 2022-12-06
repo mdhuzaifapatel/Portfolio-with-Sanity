@@ -464,6 +464,12 @@ color: var(--text-color);
 
 /*=============== ABOUT ===============*/
 
+.hacker, .hacker:visited, .hacker:active {
+  color: #61DBCF;
+  text-decoration: none;
+ }
+
+
 .about__container{
 row-gap: 2.5rem;
 }
